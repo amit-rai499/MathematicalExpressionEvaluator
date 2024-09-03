@@ -11,10 +11,10 @@ public class Calculator {
 		/* To solve 2+3*5, we can break down this expression as shown below. It will form tree like structure which is the format for Composite
 		 * design pattern to be used.
 		 *      		  +								+
-		 *  2+3*5 -->   /   \           -->    		  /   \
+		 *  2+3*5 -->   /   \         -->    		  /   \
 		 *   		   2    3*5						 2     *
-		 * 										 /   \
-		 * 										3     5 
+		 * 										   /   \
+		 * 										  3     5 
 		 */
 		
 		Expression number2 = new Number(2);
